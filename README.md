@@ -1,2 +1,2 @@
 # Trade_Engine
-There is a Trade Engine for demonstrate matching ordes
+A Trade Engine is available for demonstrating order matching. The main trade engine operates as a TCP server and accepts transactions according to a predefined format. It functions as a high-performance C++ matching engine. I have also developed an Order Generator program to showcase the behaviour of the matching engine. All compilation and execution instructions are included in the TradeEngine Instruction Manual manual.
