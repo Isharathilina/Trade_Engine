@@ -1,0 +1,6 @@
+ps -ef | grep -i TradeEngine |grep -v grep| while read r1 r2 r3 ;
+do kill -9 $r2 ;
+done
+ps -ef | grep -i OrderGenerator |grep -v grep| while read r1 r2 r3 ;
+do kill -9 $r2 ;
+done
